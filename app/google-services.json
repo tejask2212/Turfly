@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "772476171005",
+    "project_id": "login-register-firebase-174de",
+    "storage_bucket": "login-register-firebase-174de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772476171005:android:4298162c3b14ce989a0494",
+        "android_client_info": {
+          "package_name": "com.example.turfly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772476171005-68l2svn91vomn5cqkt4fio6ivpnhabgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.turfly",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "772476171005-fkit7vpss9a77g9stq10e3sv8abs772e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0nXrJwgSR4PojpshRhSvWZc0QQKTZZqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772476171005-fkit7vpss9a77g9stq10e3sv8abs772e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg">
+
+    <!-- Profile Photo and Search Box at the top -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <!-- Profile Button (loads dynamic image from ProfilePictureManager) -->
+        <ImageButton
+            android:id="@+id/profile_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circular_background"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:contentDescription="@string/profile_picture"
+            android:src="@drawable/baseline_person_24" /> <!-- Default image (baseline_person_24) -->
+
+        <!-- Search Box -->
+        <EditText
+            android:id="@+id/search_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search turfs..."
+            android:background="@drawable/btn_bg"
+            android:padding="10dp"
+            android:layout_toEndOf="@id/profile_button"
+            android:textColor="#000000"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:inputType="text"
+            android:imeOptions="actionSearch" />
+    </RelativeLayout>
+
+    <!-- Turf List using RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/turf_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+</LinearLayout>
